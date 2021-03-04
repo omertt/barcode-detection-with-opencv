@@ -2,7 +2,7 @@
 import numpy as np
 import cv2
 
-image = cv2.imread(r"C:\Users\OSMANMERTTOSUN\Desktop\barcode.png")
+img = cv2.imread(r"C:\Users\OSMANMERTTOSUN\Desktop\barcode.png")
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 #%% -2-
 # OpenCV provides three types of gradient filters or High-pass filters, Sobel, Scharr and Laplacian.
